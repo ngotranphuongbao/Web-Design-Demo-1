@@ -1,0 +1,27 @@
+/* PC */
+@media (min-width: 1024px) {
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    :root {
+        --flex-basis-value: calc((100% - 80px) / 2);  
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    #slider-caption h1 span:last-child {
+        display: none; 
+    }
+
+    #nav-list {
+        display: none; 
+    }
+
+    :root {
+        --flex-basis-value: 100%;
+    }
+
+}
